@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NiPlex Harness docs — setup, features, phone-first control</title>
+  <meta name="description" content="NiPlex Harness documentation. Personal AI agent harness controlled from Discord or Telegram. Free-host friendly." />
+  <link rel="canonical" href="https://niplex-harness.pages.dev/docs/NiPlex-Harness/" />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+  <meta property="og:title" content="NiPlex Harness docs — setup, features, phone-first control" />
+  <meta property="og:description" content="NiPlex Harness documentation. Personal AI agent harness controlled from Discord or Telegram. Free-host friendly." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://niplex-harness.pages.dev/docs/NiPlex-Harness/" />
+  <meta property="og:image" content="https://niplex-harness.pages.dev/assets/images/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="NiPlex Harness — AI agent harness from Discord or Telegram" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="bg-dots"></div>
+  <header class="nav">
+    <a class="logo" href="/">NiPlex Harness</a>
+    <nav class="nav-links">
+      <a href="/docs/">Docs</a>
+      <a href="/agent-ready/">Agent Ready</a>
+      <a href="https://github.com/Aj-Niplex/NiPlex-Harness" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </header>
+
+  <main class="agent-ready-page">
+    <p class="eyebrow">Product docs</p>
+    <h1>NiPlex Harness</h1>
+    <p class="lead">Personal AI agent harness controlled from Discord or Telegram. Built for free hosts — phone is the control panel.</p>
+
+    <h2 style="margin:2rem 0 0.75rem;font-size:1.25rem">What you get (alpha)</h2>
+    <ul class="steps">
+      <li>Discord (recommended) or Telegram gateway</li>
+      <li><code>/setup</code> — provider → API key → models from API</li>
+      <li>Built-in Python sandbox + approval buttons</li>
+      <li><code>vault/</code> — Obsidian-ready Markdown</li>
+      <li>Memory, files, skills, web search, terminal</li>
+      <li>Allow-list only security</li>
+      <li>Designed for free hosts (HidenCloud etc.)</li>
+    </ul>
+
+    <h2 style="margin:2rem 0 0.75rem;font-size:1.25rem">5-minute start</h2>
+    <ol class="steps">
+      <li>Create a Discord or Telegram bot token</li>
+      <li>Copy <code>.env.example</code> → <code>.env</code> and set token + your user id</li>
+      <li><code>pip install -r requirements.txt && python launch.py</code></li>
+      <li>In chat: <strong>/setup</strong> then <strong>/help</strong></li>
+    </ol>
+
+    <p style="margin-top:2rem">
+      <a class="btn primary" href="https://github.com/Aj-Niplex/NiPlex-Harness" target="_blank" rel="noopener">Open GitHub repo</a>
+      <a class="btn secondary" href="/agent-ready/" style="margin-left:0.5rem">Agent Ready</a>
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/docs/">Docs</a>
+      <a href="https://github.com/Aj-Niplex/NiPlex-Harness" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-note">Built with open Hermes strengths + NiPlex focus</p>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
