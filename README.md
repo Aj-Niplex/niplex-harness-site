@@ -16,4 +16,3 @@ Public static site for NiPlex Harness — the personal AI agent harness you cont
 ## Scope
 
 V1 is a pure static site. No auth, forum or voting (V2+ per decisions.md in save-data).
-Front-end owner: Mistral (Aj-Niplex agent team).
